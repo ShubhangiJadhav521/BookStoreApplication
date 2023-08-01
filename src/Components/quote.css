@@ -1,0 +1,26 @@
+.quotes-section{
+  /* border: 1px solid rgba(141, 39, 174, 0.3); */
+  border-radius: 4rem;
+   margin:10rem  5rem;
+   /* background-color: rgba(141, 39, 174, 0.5); */
+   align-items: center;
+   
+ 
+}
+
+.quote-card{
+    width: 100%;
+    height: fit-content;
+    margin:  auto;
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    /* grid-gap:20px; */
+    box-sizing: border-box;
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    justify-content: center;
+    
+}

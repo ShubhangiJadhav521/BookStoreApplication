@@ -1,0 +1,22 @@
+.header-content{
+    min-height: 87.5vh;
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("./image/library-img.jpg") center/cover no-repeat;
+    flex-direction: column;
+    
+}
+
+.header-title{
+    font-size: 4.2rem;
+}
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+}
+@media screen and (max-width: 404px) {
+    .header-content{
+        background-color: aqua;
+        height: 100vh;
+    }
+}
