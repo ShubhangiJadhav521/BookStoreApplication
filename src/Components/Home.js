@@ -2,40 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 // import SearchForm from "../SearchForm/SearchForm";
 import "./Home.css";
-import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import { Fade } from "react-slideshow-image";
 import Main from "./Main";
-import { Outlet } from "react-router-dom";
-const spanStyle = {
-  padding: "20px",
-  background: "#efefef",
-  color: "#000000",
-};
-
-const divStyle = {
-  // display: 'flex',
-  // alignItems: 'center',
-  // justifyContent: 'center',
-  // backgroundSize: 'cover',
-  // height: '400px'
-  backgroundColor: "red",
-};
-
-const fadeImages = [
-  {
-    url: "./image/library-img.jpg",
-    caption: "First Slide",
-  },
-  {
-    url: "./image/library-img.jpg",
-    caption: "Second Slide",
-  },
-  {
-    url: "./image/library-img.jpg",
-    caption: "Third Slide",
-  },
-];
 
 const Home = () => {
   return (
